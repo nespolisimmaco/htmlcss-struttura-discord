@@ -1,0 +1,30 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CUSTOM PROPERTIES */
+/* Colors */
+:root {
+    --lightblue: #add8e6;
+    --orange: #daa520;
+    --darkblue: #00008b;
+    --fuchsia: #ee82ee;
+    --blue: #1e90ff;
+    --pink: #ffc0cb;
+    --grey: #d3d3d3;
+    --darkgreen: #228b22;
+    --coral: #f08080;
+    --green: #20b2aa;
+    --lightgreen: #7fffd4;
+    --black: #23272a;
+}
+
+/* HEADER */
+header {
+    height: 80px;
+    /* debug */
+    background-color: var(--lightblue);
+}
