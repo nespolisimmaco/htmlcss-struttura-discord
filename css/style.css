@@ -43,9 +43,10 @@ header {
 }
 
 .container.header-container {
-    background-color: var(--orange);
     display: flex;
     align-items: center;
+    /* debug */
+    background-color: var(--orange);
 }
 
 .header-nav ul {
@@ -56,23 +57,27 @@ header {
 
 .logo {
     width: 20%;
+    /* debug */
     border: var(--blackborder);
 }
 
 .header-nav {
     width: 60%;
-    border: 2px dashed black;
     display: flex;
     justify-content: center;
+    /* debug */
+    border: 2px dashed black;
 }
 
 .login {
-    border: 2px dashed black;
     width: 20%;
     text-align: right;
+    /* debug */
+    border: 2px dashed black;
 }
 
 /* MAIN */
+/* First section */
 .blue-section {
     background-color: var(--darkblue);
     padding: 35px;
@@ -82,6 +87,29 @@ header {
     width: 70%;
     margin: 0 auto;
     min-height: 300px;
+    /* debug */
     background-color: var(--fuchsia);
+    border: var(--blackborder);
+}
+
+/* Second section */
+.container.section-container {
+    display: flex;
+    padding: 40px;
+}
+
+.blue {
+    min-height: 500px;
+    width: 60%;
+    /* debug */
+    background-color: var(--blue);
+    border: var(--blackborder);
+}
+
+.pink {
+    min-height: 500px;
+    width: 40%;
+    /* debug */
+    background-color: var(--pink);
     border: var(--blackborder);
 }
