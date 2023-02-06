@@ -22,9 +22,52 @@
     --black: #23272a;
 }
 
+/*  */
+:root {
+    --blackborder: 2px dashed black;
+}
+
+/* GENERAL */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    /* debug */
+}
+
 /* HEADER */
 header {
-    height: 80px;
+    height: 50px;
+    padding: 10px;
     /* debug */
     background-color: var(--lightblue);
+}
+
+.container.header-container {
+    background-color: var(--orange);
+    align-items: center;
+}
+
+.header-nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+.logo {
+    width: 20%;
+    border: var(--blackborder);
+}
+
+.header-nav {
+    width: 60%;
+    border: 2px dashed black;
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    border: 2px dashed black;
+    width: 20%;
+    text-align: right;
 }
