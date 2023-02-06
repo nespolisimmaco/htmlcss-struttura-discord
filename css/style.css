@@ -34,6 +34,10 @@
     /* debug */
 }
 
+.flex {
+    display: flex;
+}
+
 /* HEADER */
 header {
     height: 50px;
@@ -42,8 +46,7 @@ header {
     background-color: var(--lightblue);
 }
 
-.container.header-container {
-    display: flex;
+.container.flex {
     align-items: center;
     /* debug */
     background-color: var(--orange);
@@ -61,9 +64,8 @@ header {
     border: var(--blackborder);
 }
 
-.header-nav {
+.header-nav.flex {
     width: 60%;
-    display: flex;
     justify-content: center;
     /* debug */
     border: 2px dashed black;
@@ -77,7 +79,7 @@ header {
 }
 
 /* MAIN */
-/* First section */
+/* Blue section */
 .blue-section {
     background-color: var(--darkblue);
     padding: 35px;
@@ -92,10 +94,15 @@ header {
     border: var(--blackborder);
 }
 
-/* Second section */
-.container.section-container {
-    display: flex;
-    padding: 40px;
+/* First white section */
+.section-container{
+    width: 80%;
+    margin: 0 auto;
+    /* debug */
+}
+
+.section-container.flex {
+    padding: 40px 0;
 }
 
 .blue {
@@ -112,4 +119,9 @@ header {
     /* debug */
     background-color: var(--pink);
     border: var(--blackborder);
+}
+
+/* Grey section */
+.grey-section {
+    background-color: var(--grey);
 }
