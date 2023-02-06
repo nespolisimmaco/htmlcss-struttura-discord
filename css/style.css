@@ -22,9 +22,10 @@
     --black: #23272a;
 }
 
-/*  */
+/* Border */
 :root {
     --blackborder: 2px dashed black;
+    --whiteborder: 2px dashed white;
 }
 
 /* GENERAL */
@@ -100,6 +101,7 @@ header {
     margin: 0 auto;
     padding: 40px 0;
     /* debug */
+    border: var(--blackborder);
 }
 
 .blue {
@@ -120,6 +122,7 @@ header {
 
 /* Grey section */
 .grey-section {
+    /* debug */
     background-color: var(--grey);
 }
 
@@ -130,3 +133,32 @@ header {
     border: var(--blackborder);
     background-color: var(--darkgreen);
 }
+
+/* First Black section */
+.black-section {
+    /* debug */
+    background-color: var(--black);
+    border: 2px solid white;
+}
+
+.wrap {
+    /* debug */
+    border: var(--blackborder);
+}
+
+.coral {
+    width: 30%;
+    min-height: 500px;
+    /* debug */
+    background-color: var(--coral);
+    border: var(--blackborder);
+}
+
+.green {
+    min-height: 500px;
+    width: calc((100% - 30%) / 4);
+    /* debug */
+    background-color: var(--green);
+    border: var(--whiteborder);
+}
+
