@@ -98,11 +98,8 @@ header {
 .section-container{
     width: 80%;
     margin: 0 auto;
-    /* debug */
-}
-
-.section-container.flex {
     padding: 40px 0;
+    /* debug */
 }
 
 .blue {
@@ -124,4 +121,12 @@ header {
 /* Grey section */
 .grey-section {
     background-color: var(--grey);
+}
+
+/* Dark green square */
+.dark-green {
+    min-height: 600px;
+    /* debug */
+    border: var(--blackborder);
+    background-color: var(--darkgreen);
 }
