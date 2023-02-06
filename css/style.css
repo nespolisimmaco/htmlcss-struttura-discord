@@ -31,7 +31,6 @@
 .container {
     width: 80%;
     margin: 0 auto;
-    display: flex;
     /* debug */
 }
 
@@ -45,6 +44,7 @@ header {
 
 .container.header-container {
     background-color: var(--orange);
+    display: flex;
     align-items: center;
 }
 
@@ -70,4 +70,18 @@ header {
     border: 2px dashed black;
     width: 20%;
     text-align: right;
+}
+
+/* MAIN */
+.blue-section {
+    background-color: var(--darkblue);
+    padding: 35px;
+}
+
+.fuchsia {
+    width: 70%;
+    margin: 0 auto;
+    min-height: 300px;
+    background-color: var(--fuchsia);
+    border: var(--blackborder);
 }
