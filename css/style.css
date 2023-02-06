@@ -162,3 +162,13 @@ header {
     border: var(--whiteborder);
 }
 
+/* FOOTER */
+/* Second black section */
+.footer-section {
+    width: 80%;
+    margin: 0 auto;
+    min-height: 80px;
+    margin-top: 25px;
+    /* debug */
+    background-color: var(--lightgreen);
+}
