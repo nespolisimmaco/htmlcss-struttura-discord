@@ -172,3 +172,22 @@ header {
     /* debug */
     background-color: var(--lightgreen);
 }
+
+.footer-section.flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    padding: 5px;
+    /* debug */
+    border: var(--blackborder);
+    background-color: var(--pink);
+}
+
+.footer-button {
+    padding: 5px;
+    /* debug */
+    border: var(--blackborder);
+    background-color: var(--pink);
+}
