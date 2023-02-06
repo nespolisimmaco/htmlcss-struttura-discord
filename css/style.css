@@ -29,12 +29,6 @@
 }
 
 /* GENERAL */
-.container {
-    width: 80%;
-    margin: 0 auto;
-    /* debug */
-}
-
 .flex {
     display: flex;
 }
@@ -47,10 +41,13 @@ header {
     background-color: var(--lightblue);
 }
 
-.container.flex {
-    align-items: center;
+.header-container {
+    width: 80%;
+    margin: 0 auto;
+    
     /* debug */
     background-color: var(--orange);
+    border: var(--blackborder);
 }
 
 .header-nav ul {
@@ -59,24 +56,35 @@ header {
     gap: 10px;
 }
 
+.nav-links li a{
+    text-decoration: none;
+    color: black;
+}
+
 .logo {
     width: 20%;
+    padding: 5px;
     /* debug */
-    border: var(--blackborder);
+    border-right: var(--blackborder);
 }
 
 .header-nav.flex {
     width: 60%;
     justify-content: center;
+    flex-grow: 1;
+    padding: 5px;
     /* debug */
-    border: 2px dashed black;
+    border-left: 2px dashed black;
+    border-right: 2px dashed black;
+
 }
 
 .login {
     width: 20%;
     text-align: right;
+    padding: 5px;
     /* debug */
-    border: 2px dashed black;
+    border-left: 2px dashed black;
 }
 
 /* MAIN */
@@ -87,7 +95,7 @@ header {
 }
 
 .fuchsia {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     min-height: 300px;
     /* debug */
@@ -104,6 +112,7 @@ header {
     border: var(--blackborder);
 }
 
+/* blue square */
 .blue {
     min-height: 500px;
     width: 60%;
@@ -112,6 +121,7 @@ header {
     border: var(--blackborder);
 }
 
+/* pink square */
 .pink {
     min-height: 500px;
     width: 40%;
@@ -146,6 +156,7 @@ header {
     border: var(--blackborder);
 }
 
+/* coral square */
 .coral {
     width: 30%;
     min-height: 500px;
@@ -154,6 +165,7 @@ header {
     border: var(--blackborder);
 }
 
+/* green square */
 .green {
     min-height: 500px;
     width: calc((100% - 30%) / 4);
